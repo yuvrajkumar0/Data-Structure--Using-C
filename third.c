@@ -18,9 +18,9 @@ int main(){
     for(i=0; i<3; i++){
         c[i]=a[i]+b[i];
     }
-    printf("sum of arrays:");
+    printf("sum of arrays: \n ");
     for(i=0; i<3; i++){
-        printf("%d \n",i+1,c[i]);
+        printf("%d \n",c[i]);
     }
     return 0;
 }
