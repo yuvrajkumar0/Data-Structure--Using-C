@@ -19,6 +19,7 @@ int main(){
  while(top !=-1){
     printf("%c", stack[top]);
     top --;
+    
  }
  return 0;
 }
